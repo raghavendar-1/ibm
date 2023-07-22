@@ -1,0 +1,44 @@
+.bannerBgImage {
+    height: 100vh;
+    background-color: #f0f0f0; /* Fallback color */
+    background: url("images/Background.jpg");
+    background-size: cover;
+    position: relative;
+}
+  
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.BannerTitle{
+    font-size: 4rem;
+}
+.BannerDesc{
+    font-size: 2rem;
+}
+.card{
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: palevioletred;
+    border: 5px solid yellowgreen;
+    transition: background-color 0.3s, border 0.3s;
+}
+.BIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover{
+    border: 5px solid yellowgreen;
+    transition: border 0.3s;
+}
+.card-img-top{
+    height: 50vh;
+}
